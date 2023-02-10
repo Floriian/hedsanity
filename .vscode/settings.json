@@ -1,4 +1,9 @@
 {
   "typescript.tsdk": "node_modules\\typescript\\lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "exportall.config.folderListener": [
+    "/src/utils",
+    "/src/hooks",
+    "/src/types"
+  ]
 }
